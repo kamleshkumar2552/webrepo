@@ -1,0 +1,22 @@
+import org.odata4j.consumer.*;
+import org.odata4j.core.*;
+import java.util.List;
+class A{
+
+public static void main(String[] args) {
+    ODataConsumer c = ODataConsumer.create("http://odata.netflix.com/v1/Catalog/");
+
+            List<OEntity> titles = c.getEntities("Titles").filter("Name eq 'Into the Wild'").execute().toList();
+              for(OEntity title : titles) 
+
+              {              
+
+                for(OProperty<?> p : title.getProperties()) 
+
+                {                  
+
+                  System.out.println(p.getName() + ": " + p.getValue() + "<br />");
+                }
+              }
+  }
+}

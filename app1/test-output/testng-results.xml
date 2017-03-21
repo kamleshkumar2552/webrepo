@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25447" started-at="2017-03-17T10:35:22Z" finished-at="2017-03-17T10:35:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25447" started-at="2017-03-17T10:35:22Z" finished-at="2017-03-17T10:35:48Z">
+      <class name="app1.A">
+        <test-method status="PASS" signature="GoogleLogin()[pri:0, instance:app1.A@6a4f787b]" name="GoogleLogin" duration-ms="25393" started-at="2017-03-17T16:05:23Z" description="Google Login" finished-at="2017-03-17T16:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleLogin -->
+      </class> <!-- app1.A -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
